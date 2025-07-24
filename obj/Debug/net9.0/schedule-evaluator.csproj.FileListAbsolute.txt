@@ -1,0 +1,14 @@
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\bin\Debug\net9.0\schedule-evaluator.exe
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\bin\Debug\net9.0\schedule-evaluator.deps.json
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\bin\Debug\net9.0\schedule-evaluator.runtimeconfig.json
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\bin\Debug\net9.0\schedule-evaluator.dll
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\bin\Debug\net9.0\schedule-evaluator.pdb
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\obj\Debug\net9.0\schedule-evaluator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\obj\Debug\net9.0\schedule-evaluator.AssemblyInfoInputs.cache
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\obj\Debug\net9.0\schedule-evaluator.AssemblyInfo.cs
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\obj\Debug\net9.0\schedule-evaluator.csproj.CoreCompileInputs.cache
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\obj\Debug\net9.0\schedule-evaluator.dll
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\obj\Debug\net9.0\refint\schedule-evaluator.dll
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\obj\Debug\net9.0\schedule-evaluator.pdb
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\obj\Debug\net9.0\schedule-evaluator.genruntimeconfig.cache
+C:\Users\vitor\RiderProjects\schedule-evaluator\schedule-evaluator\obj\Debug\net9.0\ref\schedule-evaluator.dll
