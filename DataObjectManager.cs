@@ -1,4 +1,4 @@
-﻿namespace sort_merge_join;
+﻿namespace schedule_evaluator;
 
 public class DataObjectManager
 {
@@ -6,8 +6,12 @@ public class DataObjectManager
     public List<DataObject> DataObjects {get; set;} = new List<DataObject>();
     public string dataObjectPath { get; set; } = "";
 
-    public void ClockIn(string dataID, string newTS, string operation)
+    public void ClockIn(string dataObjectID, int newTS, string operation)
     {
+        if (operation == "r")
+            DataObjects[int.Parse(dataObjectID.Substring(1)) -1].ReadTS = newTS;
+        else if (operation == "w")
+            DataObjects[int.Parse(dataObjectID.Substring(1)) -1].WriteTS = newTS;
         
     }
 
@@ -18,7 +22,10 @@ public class DataObjectManager
 
     public void ResetClock()
     {
-        //para cada D.O., resetar os tempos de R e W;
+        foreach (DataObject dataObject in DataObjects)
+        {
+            dataObject.ResetTS();
+        }
     }
 
     public void WriteDataObjectOnDisk(string dataObjectLog)

@@ -1,4 +1,4 @@
-﻿namespace sort_merge_join;
+﻿namespace schedule_evaluator;
 
 public class DataObject
 {
