@@ -8,6 +8,7 @@ namespace schedule_evaluator
     {
         static void Main(string[] args)
         {
+            //Setar variável "isLinux" e criar as pastas nos caminhos informados
             bool isLinux = false;
             string rootDirectory = isLinux ? @"/home/vitor/tmp/sort_merge_join/" : @"C:\temp\schedule-evaluator\";
             string in_path = Path.Combine(rootDirectory, "in.txt");
@@ -144,8 +145,9 @@ namespace schedule_evaluator
                     dataObject.ResetTS();
                 }
             }
-
+            
             Console.WriteLine("Avaliação de escalonamentos concluída! Verifique o arquivo out.txt.");
+            // Console.WriteLine("Relógio final: \n" + DOM.DisplayStatus());
         }
     }
 }

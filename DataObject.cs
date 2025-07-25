@@ -21,4 +21,9 @@ public class DataObject
     {
         return $"{Id}-out.txt";
     }
+
+    public string ActualStatus()
+    {
+        return $"ObjectID: {Id} | ReadTS: {ReadTS} | WriteTS: {WriteTS}";
+    }
 }

@@ -28,17 +28,13 @@ public class DataObjectManager
         }
     }
 
-    public void WriteDataObjectOnDisk(string dataObjectLog)
+    public string DisplayStatus()
     {
-        //gravar (flush) log no caminho raiz + nome do arquivo do d.o.
-
-        // using (var writer = new StreamWriter(outputFile))
-        // {
-        //     writer.WriteLine(string.Join(",", tuple));
-        // }
-        
-        //ou
-        // File.AppendAllText(Path.Combine(RunT1Directory, $"run_0_{run_counter}.txt"), result);
+        string status = "";
+        foreach (DataObject dataObject in DataObjects)
+        {
+            status += dataObject.ActualStatus() + "\n";
+        }
+        return status;
     }
-
 }
